@@ -3846,7 +3846,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ChangedStateSprite: {fileID: 955401533}
-  Property: 1
+  Property: 0
   UnlockItem: key_blue
   AccessObject: {fileID: 1296072308}
 --- !u!61 &830262902
@@ -3856,13 +3856,13 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 830262899}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.92259943, y: 0.14512807}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -3873,7 +3873,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.2, y: 0.9}
+  m_Size: {x: 3.2988265, y: 1.1902561}
   m_EdgeRadius: 0
 --- !u!4 &831211651 stripped
 Transform:
@@ -5521,7 +5521,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 2
   m_Sprite: {fileID: 7482667652216324306, guid: f590029d2bd75024e82a000b9ce57153, type: 3}
-  m_Color: {r: 0.57254905, g: 0.3647059, b: 0.24313727, a: 1}
+  m_Color: {r: 0.57254905, g: 0.3647059, b: 0.24313727, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -10505,6 +10505,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: left drawer view
       objectReference: {fileID: 0}
+    - target: {fileID: 1943075958025882, guid: 05a411cb6d925cc4b98edb5353ad78a1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4408370963044402, guid: 05a411cb6d925cc4b98edb5353ad78a1, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -10536,6 +10540,22 @@ PrefabInstance:
     - target: {fileID: 4408370963044402, guid: 05a411cb6d925cc4b98edb5353ad78a1, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 61787283572612324, guid: 05a411cb6d925cc4b98edb5353ad78a1, type: 3}
+      propertyPath: m_Size.x
+      value: 2.4975817
+      objectReference: {fileID: 0}
+    - target: {fileID: 61787283572612324, guid: 05a411cb6d925cc4b98edb5353ad78a1, type: 3}
+      propertyPath: m_Size.y
+      value: 1.2073258
+      objectReference: {fileID: 0}
+    - target: {fileID: 61787283572612324, guid: 05a411cb6d925cc4b98edb5353ad78a1, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.24879086
+      objectReference: {fileID: 0}
+    - target: {fileID: 61787283572612324, guid: 05a411cb6d925cc4b98edb5353ad78a1, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.10366291
       objectReference: {fileID: 0}
     - target: {fileID: 114466822753920960, guid: 05a411cb6d925cc4b98edb5353ad78a1, type: 3}
       propertyPath: SpriteName
