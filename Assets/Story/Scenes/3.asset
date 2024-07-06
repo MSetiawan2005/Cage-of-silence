@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: 3
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: (Shocked) "Uh, Where am I? This doesn't look like my classroom."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: b1a4b200ce662d048ae9541245ffc60e, type: 3}
+    sound: {fileID: 0}
+  - text: (Shocked) "What... what's happening? Why is everything so dark and eerie?"
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 2
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: (Laughing) "You thought you could escape? You will pay for your sins."
+    audio: {fileID: 8300000, guid: 238f2b379f2202d418cca5be2126824b, type: 3}
+    speaker: {fileID: 11400000, guid: 49ef316e5900149458c2deb78a1fca0f, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 49ef316e5900149458c2deb78a1fca0f, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -600, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: ' (Fear creeping in) "Who... who are you? What do you want from me?"'
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 2
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: (Normal) "I am the voice of the tormented. You will pay for the sins of
+      your kind."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 49ef316e5900149458c2deb78a1fca0f, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 49ef316e5900149458c2deb78a1fca0f, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -600, y: 0}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: b1a4b200ce662d048ae9541245ffc60e, type: 3}
+    sound: {fileID: 0}
+  - text: (Shocked) "H-How is this happening?"
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 2
+      actionType: 2
+      coords: {x: 600, y: 0}
+      moveSpeed: 2.5
+    music: {fileID: 8300000, guid: b1a4b200ce662d048ae9541245ffc60e, type: 3}
+    sound: {fileID: 0}
+  - text: (Laughing) "You ignored the warnings. You're gonna suffer for what you've
+      done."
+    audio: {fileID: 8300000, guid: 238f2b379f2202d418cca5be2126824b, type: 3}
+    speaker: {fileID: 11400000, guid: 49ef316e5900149458c2deb78a1fca0f, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 49ef316e5900149458c2deb78a1fca0f, type: 2}
+      spriteIndex: 0
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 2.5
+    music: {fileID: 8300000, guid: b1a4b200ce662d048ae9541245ffc60e, type: 3}
+    sound: {fileID: 0}
+  - text: (Shocked) "I didn't know... I didn't mean to hurt anyone. Please, spare
+      me!"
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 2
+      actionType: 1
+      coords: {x: 600, y: 0}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: b1a4b200ce662d048ae9541245ffc60e, type: 3}
+    sound: {fileID: 0}
+  - text: (Normal) "You must unravel the truth of my torment. Only then will you
+      find your escape."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 49ef316e5900149458c2deb78a1fca0f, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 49ef316e5900149458c2deb78a1fca0f, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: b1a4b200ce662d048ae9541245ffc60e, type: 3}
+    sound: {fileID: 0}
+  - text: (Laughing) "Your fate is sealed. Time to pay for your sins."
+    audio: {fileID: 8300000, guid: 238f2b379f2202d418cca5be2126824b, type: 3}
+    speaker: {fileID: 11400000, guid: 49ef316e5900149458c2deb78a1fca0f, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 49ef316e5900149458c2deb78a1fca0f, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: b1a4b200ce662d048ae9541245ffc60e, type: 3}
+    sound: {fileID: 0}
+  - text: " (Laughing) Keh-he he he he he\u2026."
+    audio: {fileID: 8300000, guid: 238f2b379f2202d418cca5be2126824b, type: 3}
+    speaker: {fileID: 11400000, guid: 49ef316e5900149458c2deb78a1fca0f, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 49ef316e5900149458c2deb78a1fca0f, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: b1a4b200ce662d048ae9541245ffc60e, type: 3}
+    sound: {fileID: 0}
+  - text: ...
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 2
+      actionType: 3
+      coords: {x: 600, y: 0}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: b1a4b200ce662d048ae9541245ffc60e, type: 3}
+    sound: {fileID: 0}
+  background: {fileID: 2588698332489811907, guid: 00346c0a17ea7524ea8c7ce4e359bafb, type: 3}
+  nextScene: {fileID: 11400000, guid: e49ff8b3e9d38a644b6bb73e0ed39ffa, type: 2}
