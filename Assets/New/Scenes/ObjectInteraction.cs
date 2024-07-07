@@ -7,7 +7,7 @@ public class ObjectInteraction : MonoBehaviour
     private GameObject objectUI; // Instance UI objek yang sedang ditampilkan
 
     private bool isUIVisible = false; // Status apakah UI objek sedang ditampilkan
-
+    private int clickCount = 0;
     void Start()
     {
         // Setelah objek diinstansiasi, UI objek belum ditampilkan
@@ -31,14 +31,26 @@ public class ObjectInteraction : MonoBehaviour
                 {
                     ShowUI();
                 }
-                else
-                {
-                    DestroyObject();
-                }
+               
+            }
+
+            clickCount++;
+            
+            if (clickCount == 2)
+            {
+                DestroyObject();
+            }
+            else 
+            {
+                Invoke("Reset", 0.5f);
             }
         }
     }
 
+    private void Reset()
+    {
+        clickCount = 0;
+    }
     void ShowUI()
     {
         // Instantiate UI Canvas atau panel
