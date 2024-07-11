@@ -47,6 +47,6 @@ public class ExitDoor : MonoBehaviour, IInteractable {
     public IEnumerator LoadMenu()
     {
         yield return new WaitForSeconds(1);
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("Menu");
     }
 }
