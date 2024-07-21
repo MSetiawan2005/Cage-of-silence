@@ -34,7 +34,7 @@ public class ExitDoor : MonoBehaviour, IInteractable {
             ChangedStateSprite.SetActive(true);
             this.gameObject.layer = 2;
 
-           // Instantiate(EscapeMessage, GameObject.Find("Canvas").transform);
+           //Instantiate(EscapeMessage, GameObject.Find("Canvas").transform);
 
             currentDisplay.CurrentState = DisplayImage.State.idle;
 
@@ -47,6 +47,6 @@ public class ExitDoor : MonoBehaviour, IInteractable {
     public IEnumerator LoadMenu()
     {
         yield return new WaitForSeconds(1);
-        SceneManager.LoadScene("Menu");
+        SceneManager.LoadScene("Good Ending");
     }
 }

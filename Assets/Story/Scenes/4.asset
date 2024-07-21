@@ -22,7 +22,7 @@ MonoBehaviour:
       actionType: 1
       coords: {x: 400, y: 0}
       moveSpeed: 0
-    music: {fileID: 8300000, guid: cfd9b775032f1b44a8309d0a5239016a, type: 3}
+    music: {fileID: 8300000, guid: c90bbda81fc61b64096dab173e188461, type: 3}
     sound: {fileID: 0}
   - text: (Shocked) "I can't believe this is happening... What have I gotten myself
       into?"
@@ -34,7 +34,7 @@ MonoBehaviour:
       actionType: 2
       coords: {x: 0, y: 0}
       moveSpeed: 2.5
-    music: {fileID: 0}
+    music: {fileID: 8300000, guid: c90bbda81fc61b64096dab173e188461, type: 3}
     sound: {fileID: 0}
   - text: (Normal) "The front door... It's my only way out. I have to get out of
       here."
@@ -46,7 +46,7 @@ MonoBehaviour:
       actionType: 1
       coords: {x: 0, y: 0}
       moveSpeed: 0
-    music: {fileID: 0}
+    music: {fileID: 8300000, guid: c90bbda81fc61b64096dab173e188461, type: 3}
     sound: {fileID: 0}
   - text: (INormal) "I need to understand what the ghost wants. I can't let fear
       consume me."
@@ -58,7 +58,18 @@ MonoBehaviour:
       actionType: 1
       coords: {x: 0, y: 0}
       moveSpeed: 0
-    music: {fileID: 0}
+    music: {fileID: 8300000, guid: c90bbda81fc61b64096dab173e188461, type: 3}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 22efdff10a41d2d46afe5a946fdb71b4, type: 3}
+  - text: Let's Play The game
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 49ef316e5900149458c2deb78a1fca0f, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: c90bbda81fc61b64096dab173e188461, type: 3}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 9dab2cc15c29cb14594bc897e9063707, type: 3}
   nextScene: {fileID: 11400000, guid: ec653d3b374221d408db5c177e47d902, type: 2}

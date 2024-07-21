@@ -36,7 +36,7 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: (Laughing) "You thought you could escape? You will pay for your sins."
-    audio: {fileID: 8300000, guid: 238f2b379f2202d418cca5be2126824b, type: 3}
+    audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 49ef316e5900149458c2deb78a1fca0f, type: 2}
     actions:
     - speaker: {fileID: 11400000, guid: 49ef316e5900149458c2deb78a1fca0f, type: 2}
@@ -82,7 +82,7 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: (Laughing) "You ignored the warnings. You're gonna suffer for what you've
       done."
-    audio: {fileID: 8300000, guid: 238f2b379f2202d418cca5be2126824b, type: 3}
+    audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 49ef316e5900149458c2deb78a1fca0f, type: 2}
     actions:
     - speaker: {fileID: 11400000, guid: 49ef316e5900149458c2deb78a1fca0f, type: 2}
@@ -117,7 +117,7 @@ MonoBehaviour:
     music: {fileID: 8300000, guid: b1a4b200ce662d048ae9541245ffc60e, type: 3}
     sound: {fileID: 0}
   - text: (Laughing) "Your fate is sealed. Time to pay for your sins."
-    audio: {fileID: 8300000, guid: 238f2b379f2202d418cca5be2126824b, type: 3}
+    audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 49ef316e5900149458c2deb78a1fca0f, type: 2}
     actions:
     - speaker: {fileID: 11400000, guid: 49ef316e5900149458c2deb78a1fca0f, type: 2}
@@ -128,7 +128,7 @@ MonoBehaviour:
     music: {fileID: 8300000, guid: b1a4b200ce662d048ae9541245ffc60e, type: 3}
     sound: {fileID: 0}
   - text: " (Laughing) Keh-he he he he he\u2026."
-    audio: {fileID: 8300000, guid: 238f2b379f2202d418cca5be2126824b, type: 3}
+    audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 49ef316e5900149458c2deb78a1fca0f, type: 2}
     actions:
     - speaker: {fileID: 11400000, guid: 49ef316e5900149458c2deb78a1fca0f, type: 2}

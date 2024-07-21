@@ -13,12 +13,12 @@ public class MenuController : MonoBehaviour
     public TextMeshProUGUI soundsValue;
     public AudioMixer soundsMixer;
     public Button loadButton;
-
     private Animator animator;
     private int _window = 0;
 
     public void Start()
     {
+        
         animator = GetComponent<Animator>();
         loadButton.interactable = SaveManager.IsGameSaved();
     }
@@ -48,6 +48,15 @@ public class MenuController : MonoBehaviour
          animator.SetTrigger("ShowOptions");
         _window = 1;
      }
+
+    public void CreditsGame()
+    {
+        
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("Credits");
+    }
+
+  
 
     public void Quit()
     {

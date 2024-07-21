@@ -1,0 +1,400 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: END 2
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "\u201CWhat\u2019s happening? Why is everything changing?\u201D"
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 2
+      actionType: 1
+      coords: {x: 600, y: 0}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: ba6d6f871074e684b8a0034bfa304991, type: 3}
+    sound: {fileID: 0}
+  - text: "\u201CI\u2019m\u2026 I\u2019m back? Was it all a dream?\u201D"
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 600, y: 0}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: ba6d6f871074e684b8a0034bfa304991, type: 3}
+    sound: {fileID: 0}
+  - text: "\u201CU-um\u2026 hey..\u201D"
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 2
+      actionType: 1
+      coords: {x: 600, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -600, y: 0}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: ba6d6f871074e684b8a0034bfa304991, type: 3}
+    sound: {fileID: 0}
+  - text: "\u201CYou came back?\u201D"
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 2
+      actionType: 1
+      coords: {x: 600, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -600, y: 0}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: ba6d6f871074e684b8a0034bfa304991, type: 3}
+    sound: {fileID: 0}
+  - text: "\u201CYeah, t-the break is almost over, and i still couldn\u2019t find
+      what you asked\u201D"
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 600, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -600, y: 0}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: ba6d6f871074e684b8a0034bfa304991, type: 3}
+    sound: {fileID: 0}
+  - text: " \u201CP-please forgive me, please don\u2019t hit me\u2026\u201D"
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 600, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+      spriteIndex: 1
+      actionType: 1
+      coords: {x: -600, y: 0}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: ba6d6f871074e684b8a0034bfa304991, type: 3}
+    sound: {fileID: 0}
+  - text: "\u201CNo, it\u2019s me who should apologize. I\u2019ve been a bully. I
+      hurt you, and I\u2019m so sorry.\u201D"
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 600, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -600, y: 0}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: ba6d6f871074e684b8a0034bfa304991, type: 3}
+    sound: {fileID: 0}
+  - text: "\u201CWhy are you saying this now?\u201D"
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 600, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -600, y: 0}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: ba6d6f871074e684b8a0034bfa304991, type: 3}
+    sound: {fileID: 0}
+  - text: " \u201CI\u2019ve seen things. Things that made me realize how wrong I
+      was. I want to change.\u201D"
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 600, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -600, y: 0}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: ba6d6f871074e684b8a0034bfa304991, type: 3}
+    sound: {fileID: 0}
+  - text: " \u201CChange? Is this a prank?\u201D"
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 600, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -600, y: 0}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: ba6d6f871074e684b8a0034bfa304991, type: 3}
+    sound: {fileID: 0}
+  - text: "\u201CI promise I won\u2019t hurt you anymore. Can we start over?\u201D"
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 600, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -600, y: 0}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: ba6d6f871074e684b8a0034bfa304991, type: 3}
+    sound: {fileID: 0}
+  - text: "\u201CMaybe\u2026 maybe we can try.\u201D"
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 600, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -600, y: 0}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: ba6d6f871074e684b8a0034bfa304991, type: 3}
+    sound: {fileID: 0}
+  - text: "\u201CThank you\u2026\u201D"
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 600, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -600, y: 0}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: ba6d6f871074e684b8a0034bfa304991, type: 3}
+    sound: {fileID: 0}
+  - text: " \u201CHey, what if we go to the canteen to buy some food?\u201D"
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 600, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -600, y: 0}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: ba6d6f871074e684b8a0034bfa304991, type: 3}
+    sound: {fileID: 0}
+  - text: "\u201CDon\u2019t worry, it\u2019s on me now!\u201D"
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 600, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -600, y: 0}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: ba6d6f871074e684b8a0034bfa304991, type: 3}
+    sound: {fileID: 0}
+  - text: "\u201CB-but, the break is almost over, we\u2019ve got no time left\u201D"
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+      spriteIndex: 1
+      actionType: 1
+      coords: {x: -600, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 600, y: 0}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: ba6d6f871074e684b8a0034bfa304991, type: 3}
+    sound: {fileID: 0}
+  - text: "\u201CC\u2019mon, it won\u2019t be long\u2026 You never skipped class,
+      did you?\u201D"
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 600, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+      spriteIndex: 1
+      actionType: 1
+      coords: {x: -600, y: 0}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: ba6d6f871074e684b8a0034bfa304991, type: 3}
+    sound: {fileID: 0}
+  - text: "\u201CB-but that\u2019s not a good thing to do\u201D"
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 600, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -600, y: 0}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: ba6d6f871074e684b8a0034bfa304991, type: 3}
+    sound: {fileID: 0}
+  - text: " \u201CI was just joking with you\u201D"
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 600, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -600, y: 0}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: ba6d6f871074e684b8a0034bfa304991, type: 3}
+    sound: {fileID: 0}
+  - text: "\u201CBut let\u2019s try it\u2026\u201D"
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 600, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -600, y: 0}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: ba6d6f871074e684b8a0034bfa304991, type: 3}
+    sound: {fileID: 0}
+  - text: "\u201CAre you serious?\u201D"
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 600, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -600, y: 0}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: ba6d6f871074e684b8a0034bfa304991, type: 3}
+    sound: {fileID: 0}
+  - text: "\u201CJoking!\u201D"
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 600, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -600, y: 0}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: ba6d6f871074e684b8a0034bfa304991, type: 3}
+    sound: {fileID: 0}
+  - text: "\u201CHahaha, that\u2019s a good one!\u201D"
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 600, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -600, y: 0}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: ba6d6f871074e684b8a0034bfa304991, type: 3}
+    sound: {fileID: 0}
+  - text: Thanks you for Playing || by Silent Game Productions
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 49ef316e5900149458c2deb78a1fca0f, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 600, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+      spriteIndex: 0
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 1.5
+    - speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: ba6d6f871074e684b8a0034bfa304991, type: 3}
+    sound: {fileID: 8300000, guid: cfc727c4485524842b984e5a1448b5b1, type: 3}
+  background: {fileID: 293394204100768176, guid: 00346c0a17ea7524ea8c7ce4e359bafb, type: 3}
+  nextScene: {fileID: 11400000, guid: ec653d3b374221d408db5c177e47d902, type: 2}

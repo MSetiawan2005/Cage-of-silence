@@ -49,7 +49,7 @@ MonoBehaviour:
       actionType: 3
       coords: {x: 600, y: 0}
       moveSpeed: 0
-    music: {fileID: 0}
+    music: {fileID: 8300000, guid: 891f62c5697189a49ab069ef273b46a8, type: 3}
     sound: {fileID: 8300000, guid: cfc727c4485524842b984e5a1448b5b1, type: 3}
   background: {fileID: 1978619938716698916, guid: 00346c0a17ea7524ea8c7ce4e359bafb, type: 3}
   nextScene: {fileID: 11400000, guid: 322cc1a5845dec844a3dab162f68e0ff, type: 2}

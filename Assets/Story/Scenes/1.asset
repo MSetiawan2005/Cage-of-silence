@@ -22,7 +22,7 @@ MonoBehaviour:
       actionType: 1
       coords: {x: 600, y: 0}
       moveSpeed: 0
-    music: {fileID: 8300000, guid: c90bbda81fc61b64096dab173e188461, type: 3}
+    music: {fileID: 8300000, guid: 891f62c5697189a49ab069ef273b46a8, type: 3}
     sound: {fileID: 0}
   - text: Sorry, b-but they're all out of the fried rice for today
     audio: {fileID: 0}
@@ -33,7 +33,7 @@ MonoBehaviour:
       actionType: 1
       coords: {x: -600, y: 0}
       moveSpeed: 0
-    music: {fileID: 8300000, guid: c90bbda81fc61b64096dab173e188461, type: 3}
+    music: {fileID: 8300000, guid: 891f62c5697189a49ab069ef273b46a8, type: 3}
     sound: {fileID: 0}
   - text: " I have searched e-everywhere but couldn't find anyone selling it\u2026"
     audio: {fileID: 0}
@@ -44,7 +44,7 @@ MonoBehaviour:
       actionType: 1
       coords: {x: -600, y: 0}
       moveSpeed: 0
-    music: {fileID: 8300000, guid: c90bbda81fc61b64096dab173e188461, type: 3}
+    music: {fileID: 8300000, guid: 891f62c5697189a49ab069ef273b46a8, type: 3}
     sound: {fileID: 0}
   - text: Oh, do I look like I care?
     audio: {fileID: 0}
@@ -55,7 +55,7 @@ MonoBehaviour:
       actionType: 1
       coords: {x: 600, y: 0}
       moveSpeed: 0
-    music: {fileID: 8300000, guid: c90bbda81fc61b64096dab173e188461, type: 3}
+    music: {fileID: 8300000, guid: 891f62c5697189a49ab069ef273b46a8, type: 3}
     sound: {fileID: 0}
   - text: Go back and get the food, no matter what. Don't come back until you have
       it.
@@ -67,7 +67,7 @@ MonoBehaviour:
       actionType: 1
       coords: {x: 600, y: 0}
       moveSpeed: 0
-    music: {fileID: 8300000, guid: c90bbda81fc61b64096dab173e188461, type: 3}
+    music: {fileID: 8300000, guid: 891f62c5697189a49ab069ef273b46a8, type: 3}
     sound: {fileID: 0}
   - text: B-but I don't think they have any left. M-maybe you want something else?
     audio: {fileID: 0}
@@ -78,7 +78,7 @@ MonoBehaviour:
       actionType: 1
       coords: {x: -600, y: 0}
       moveSpeed: 0
-    music: {fileID: 8300000, guid: c90bbda81fc61b64096dab173e188461, type: 3}
+    music: {fileID: 8300000, guid: 891f62c5697189a49ab069ef273b46a8, type: 3}
     sound: {fileID: 0}
   - text: Listen dumbass!! I don't want to hear any excuses. You will get me that
       fried rice.
@@ -90,7 +90,7 @@ MonoBehaviour:
       actionType: 1
       coords: {x: 600, y: 0}
       moveSpeed: 0
-    music: {fileID: 8300000, guid: c90bbda81fc61b64096dab173e188461, type: 3}
+    music: {fileID: 8300000, guid: 891f62c5697189a49ab069ef273b46a8, type: 3}
     sound: {fileID: 0}
   - text: If you don't, you'll regret it. Don't make me come looking for you.
     audio: {fileID: 0}
@@ -101,7 +101,7 @@ MonoBehaviour:
       actionType: 1
       coords: {x: 600, y: 0}
       moveSpeed: 0
-    music: {fileID: 8300000, guid: c90bbda81fc61b64096dab173e188461, type: 3}
+    music: {fileID: 8300000, guid: 891f62c5697189a49ab069ef273b46a8, type: 3}
     sound: {fileID: 0}
   - text: ....
     audio: {fileID: 0}
@@ -122,7 +122,7 @@ MonoBehaviour:
       actionType: 3
       coords: {x: -100, y: 0}
       moveSpeed: 0
-    music: {fileID: 8300000, guid: c90bbda81fc61b64096dab173e188461, type: 3}
+    music: {fileID: 8300000, guid: 891f62c5697189a49ab069ef273b46a8, type: 3}
     sound: {fileID: 8300000, guid: cfc727c4485524842b984e5a1448b5b1, type: 3}
   background: {fileID: 21300000, guid: 86588387c54c8794f91dcf77ed30bb2e, type: 3}
   nextScene: {fileID: 11400000, guid: 5a227718f9adde8459ae4099f6eafac6, type: 2}
